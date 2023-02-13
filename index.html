@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>🖌我的画板</title>
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_584725_0nyjbeaxjw2ep14i.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <canvas id="drawing-board"></canvas>
+    <div class="color-group">
+        <ul>
+            <li id="white" class="color-item" style="background-color: white;"></li>
+            <li id="black" class="color-item active" style="background-color: black;"></li>
+            <li id="red" class="color-item" style="background-color: #FF3333;"></li>
+            <li id="blue" class="color-item" style="background-color: #0066FF;"></li>
+            <li id="yellow" class="color-item" style="background-color: #FFFF33;"></li>
+            <li id="green" class="color-item" style="background-color: #33CC66;"></li>
+            <li id="gray" class="color-item" style="background-color: gray;"></li>
+        </ul>
+    </div>
+    <div id="range-wrap"><input type="range" id="range" min="1" max="30" value="5" title="调整笔刷粗细"></div>
+    <div class="tools">
+        <button id="brush" class="active" title="画笔"><i class="iconfont icon-qianbi"></i></button>
+        <button id="eraser" title="橡皮擦"><i class="iconfont icon-xiangpi"></i></button>
+        <button id="clear" title="清空"><i class="iconfont icon-qingchu"></i></button>
+        <button id="undo" title="撤销"><i class="iconfont icon-chexiao"></i></button>
+        <button id="save" title="保存"><i class="iconfont icon-fuzhi"></i></button>
+    </div>
+</body>
+<script src="js/main.js"></script>
+</html>
