@@ -9,5 +9,8 @@
 - 保存成图片
 - 兼容移动端（支持触摸）
 
+## 效果展示
+[https://1iuyuhe.github.io/drawing_board/](https://1iuyuhe.github.io/drawing_board/)
+
 ## 参考资料
 [https://segmentfault.com/a/1190000013747671](https://segmentfault.com/a/1190000013747671)
