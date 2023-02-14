@@ -183,7 +183,7 @@ function listenToUser(canvas) {
             painting = false;
         };
 
-        canvas.mouseleave = function () {
+        canvas.onmouseleave = function () {
             painting = false;
         }
     }
